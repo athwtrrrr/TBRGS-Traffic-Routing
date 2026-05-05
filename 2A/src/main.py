@@ -5,7 +5,7 @@ from .multi_goals_search import multi_goal_search
 
 def main():
     if len(sys.argv) != 3:
-        print("Usage: python -m src.main <filename> <method>")
+        print("Usage: python search.py <filename> <method>")
         sys.exit(1)
 
     filename = sys.argv[1]
